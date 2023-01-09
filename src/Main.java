@@ -75,6 +75,12 @@ public class Main {
 
     public static void task9() {
         System.out.println("Задача 9");
+        double salary = 29000;
+        double total = 0;
+        for (int i = 1;i < 13; i++) {
+            total = total + salary + total/100;
+            System.out.println("Месяц " + i + " в банке с процентами " + String.format("%.2f",total));
+        }
     }
 
     public static void task10() {
