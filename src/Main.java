@@ -20,6 +20,9 @@ public class Main {
     }
     public static void task2() {
         System.out.println("Задача 2");
+        for (int i=10;i>0;i--) {
+            System.out.println(i);
+        }
     }
     public static void task3() {
         System.out.println("Задача 3");
