@@ -67,7 +67,7 @@ public class Main {
     public static void task8() {
         System.out.println("Задача 8");
         int salary = 0;
-        for (int i = 1;i < 13; i++){
+        for (int i = 1; i < 13; i++) {
             salary += 29000;
             System.out.println("Месяц " + i + " в банке " + salary);
         }
@@ -77,13 +77,17 @@ public class Main {
         System.out.println("Задача 9");
         double salary = 29000;
         double total = 0;
-        for (int i = 1;i < 13; i++) {
-            total = total + salary + total/100;
-            System.out.println("Месяц " + i + " в банке с процентами " + String.format("%.2f",total));
+        for (int i = 1; i < 13; i++) {
+            total = total + salary + total / 100;
+            System.out.println("Месяц " + i + " в банке с процентами " + String.format("%.2f", total));
         }
     }
 
     public static void task10() {
         System.out.println("Задача 10");
+        int a;
+        for (int i = 1; i < 11; i++) {
+            System.out.println("2 * " + i + " = " + 2 * i);
+        }
     }
 }
