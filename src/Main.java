@@ -38,14 +38,14 @@ public class Main {
 
     public static void task4() {
         System.out.println("Задача 4");
-        for (int i=10;i>-11;i--) {
+        for (int i = 10; i > -11; i--) {
             System.out.println(i);
         }
     }
 
     public static void task5() {
         System.out.println("Задача 5");
-        for (int i=1904; i<=2096; i+=4){
+        for (int i = 1904; i <= 2096; i += 4) {
             System.out.println(i);
         }
     }
